@@ -32,7 +32,7 @@ export default function Navbar() {
           <img 
             src="https://res.cloudinary.com/dcdqycfev/image/upload/v1770406886/photo_2026-02-06_15-40-45-Photoroom_hogkru.png" 
             alt="AIBOX" 
-            className="h-[180px] w-auto mix-blend-multiply drop-shadow-xl scale-[1.3] lg:scale-[1.5] origin-left -ml-2" 
+            className="h-[60px] md:h-[100px] xl:h-[180px] w-auto mix-blend-multiply drop-shadow-xl md:scale-[1.3] lg:scale-[1.5] origin-left -ml-2" 
           />
         </div>
         

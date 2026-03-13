@@ -32,10 +32,10 @@ export default function Hero() {
           {/* Left Column - Copy */}
           <div className="flex flex-col gap-6 z-10 max-w-xl">
             <h1 className="flex flex-col gap-2">
-              <span className="hero-text font-sans font-bold text-5xl md:text-7xl tracking-tight text-[#0B0B0F]">
+              <span className="hero-text font-sans font-bold text-4xl sm:text-5xl md:text-7xl tracking-tight text-[#0B0B0F]">
                 AIBOX encuentra
               </span>
-              <span className="hero-text font-serif italic text-5xl md:text-7xl text-[#4DA6FF]">
+              <span className="hero-text font-serif italic text-4xl sm:text-5xl md:text-7xl text-[#4DA6FF]">
                 tu futuro.
               </span>
             </h1>
@@ -49,7 +49,7 @@ export default function Hero() {
                 href="https://wa.me/584140808496" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="bg-[#4DA6FF] text-[#0B0B0F] px-8 py-4 rounded-full font-bold text-lg hover:bg-[#3b82f6] transition-all hover:shadow-[0_0_30px_-5px_#4DA6FF] hover:-translate-y-1 inline-block text-center"
+                className="bg-[#4DA6FF] text-[#0B0B0F] px-8 py-4 rounded-full font-bold text-lg hover:bg-[#3b82f6] transition-all hover:shadow-[0_0_30px_-5px_#4DA6FF] hover:-translate-y-1 inline-block text-center w-full sm:w-auto"
               >
                 Hablar por WhatsApp
               </a>
@@ -57,7 +57,7 @@ export default function Hero() {
                 href="https://wa.me/584140808496"
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="border border-[#0B0B0F]/20 px-8 py-4 rounded-full font-bold text-lg hover:bg-[#0B0B0F]/5 transition-all hover:border-[#0B0B0F]/40 text-[#0B0B0F] inline-block text-center"
+                className="border border-[#0B0B0F]/20 px-8 py-4 rounded-full font-bold text-lg hover:bg-[#0B0B0F]/5 transition-all hover:border-[#0B0B0F]/40 text-[#0B0B0F] inline-block text-center w-full sm:w-auto"
               >
                 Reservar llamada
               </a>

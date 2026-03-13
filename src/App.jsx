@@ -16,7 +16,7 @@ import './index.css'
 
 function App() {
   return (
-    <div className="min-h-screen text-[#0B0B0F] selection:bg-[#4DA6FF]/30 relative">
+    <div className="min-h-screen text-[#0B0B0F] selection:bg-[#4DA6FF]/30 relative overflow-x-hidden">
       {/* Global Background Loop */}
       <div className="fixed inset-0 z-[-1]">
         <div className="absolute inset-0 bg-white/80 z-10 backdrop-blur-[2px]" />
