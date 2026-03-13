@@ -22,11 +22,11 @@ export default function Hero() {
   }, []);
 
   return (
-    <section ref={containerRef} id="inicio" className="min-h-screen relative flex items-center pt-24 pb-12 overflow-hidden">
+    <section ref={containerRef} id="inicio" className="min-h-screen relative flex items-center overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/4 -translate-y-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-[#4DA6FF]/10 rounded-full blur-[120px] pointer-events-none" />
 
-      <div className="container mx-auto px-6 max-w-7xl">
+      <div className="container mx-auto px-6 max-w-7xl pt-36 pb-12 lg:pt-0 lg:pb-0">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center h-full">
           
           {/* Left Column - Copy */}
